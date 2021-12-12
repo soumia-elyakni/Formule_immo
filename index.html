@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "stylesheet" href = "StyleFVim.css">
+    <link rel= "stylesheet" href = "Syledepage.css">
     <title>ImmoBois</title>
 </head>
 
 <body>
-  <main>
-        
-    <div class="logo" >
-        <img src="images/logo immoBois.png">
+    <div class="contenu">
+    
+        <div class="logo">
+            <img src="images/logo immoBois.png">
         </div>
-     <div class="search__container">
-         <div>
         <div class="search">
-            <h1>Formulaire de recherche</h1> 
-    
-    <div class ="selections">
-    
-        <label class="label" for="ville-select">Ville:</label>
-        <select class="box" name="Ville" id="ville-select"> 
-            <option class="choix" value="">Choisir la ville</option>
-            <option class="choix" value="Rabat">Rabat</option>
-            <option class="choix" value="Kénitra">Kénitra</option>
-            <option class="choix" value="Casablanca">Casablanca</option>
-            <option class="choix" value="Agadir">Agadir</option>
-            <option class="choix" value="Marakkesh">Marakkesh</option>
-        </select>
-    
-        <label class="label" for="propriété-select">Type de propriété:</label>
-        <select class="box" name="type de propriété" id="propriété-select">
-            <option class="choix" value="">Choisir le type de propriété</option>
-            <option class="choix" value="Studio">Studio</option>
-            <option class="choix" value="Appartement">Appartement</option>
-            <option class="choix" value="Villa">Villa</option>
-            <option class="choix" value="Palais">Palais</option>
-    </select>
-     
-        <label class="label" for="chambre-select">Chambres</label>
+            <h1>Formulaire de recherche</h1>
+            <div class="boite">
+                <label class="label" for="ville-select">Ville:</label>
+                <select class="box" name="Ville" id="ville-select"> 
+                    <option class="choix" value="">Choisir la ville</option>
+                    <option class="choix" value="Rabat">Rabat</option>
+                    <option class="choix" value="Kénitra">Kénitra</option>
+                    <option class="choix" value="Casablanca">Casablanca</option>
+                    <option class="choix" value="Agadir">Agadir</option>
+                    <option class="choix" value="Marakkesh">Marakkesh</option>
+                </select>
+            </div>
+            <div class="boite">
+                <label class="label" for="propriété-select">Type de propriété:</label>
+                <select class="box" name="type de propriété" id="propriété-select">
+                    <option class="choix" value="">Choisir le type de propriété</option>
+                    <option class="choix" value="Studio">Studio</option>
+                    <option class="choix" value="Appartement">Appartement</option>
+                    <option class="choix" value="Villa">Villa</option>
+                    <option class="choix" value="Palais">Palais</option>
+            </select>
+            </div>
+            <div class="boite">
+                <label class="label" for="chambre-select">Chambres</label>
         <select class="box" name="Chambre" id="chambre-select">
             <option class="choix" value="">Choisir le nombre des chambres</option>
             <option class="choix" value="1">1</option>
@@ -50,7 +47,9 @@
             <option class="choix" value="5">5</option>
             <option class="choix" value="6">6</option>
         </select>
-        <label class="label" for="prix-select">Prix en (Mille MAD)</label>
+            </div>
+            <div class="boite">
+                <label class="label" for="prix-select">Prix en (Mille MAD)</label>
         <select class="box" name="prix" id="prix-select">
     
             <option class="choix" value="">Choisir le budget</option>
@@ -61,35 +60,15 @@
             <option class="choix" value="5">Entre 2000 et 3000</option>
             
         </select>
-
+            </div>
             <div class="checkbox">
-            <input type="checkbox" id="vendues">
-            <label class="choix" for="vendues">Vendues</label>
-          
-          
-          
-            <input type="checkbox" id="non_vendues">
-            <label class="choix" for="non_vendues">Non Vendues</label>
-          </div>
-          <input class="btng" type="submit" class="btn" title="Cherche" value="Cherche">
-
-    
-    
+                <input type="checkbox" id="vendues">
+                <label class="choix" for="vendues">Vendues</label>
+                <input type="checkbox" id="non_vendues">
+                <label class="choix" for="non_vendues">Non Vendues</label>
+                <input class="btng" type="submit"  title="Cherche" value="Cherche">
+            </div>
+            
         
-    
-    
-    
-    </div>
         </div>
-       
-    
-        
-     </div>
-    
-    </body>
-    
-    <footer>
-    
-    </footer>
-  </main>
-</html>
+</body>
